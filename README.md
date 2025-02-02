@@ -28,7 +28,11 @@ This repository contains an implementation of **Shor's Algorithm for factoring s
 
 ## 🔍 **1. Overview** <a name="overview"></a>
 
-Shor’s algorithm is a **quantum algorithm for integer factorization** that significantly outperforms classical methods. It consists of:
+Our information communication systems almost exclusively rely on computational complexity to varying degrees. One such example can be seen in the case of classical encryption schemes like RSA, which depend on the hardness of integer factorization for security.
+
+However, quantum computing has revolutionized the field of computational complexity, providing us with powerful tools to address problems like factorization. We now have the computational power of the Shor's Algorithm which leverages the principles of quantum superposition and entanglement to exponentially accelerate the factorization process, reducing the time complexity as it runs in polynomial time.
+
+The Shor’s algorithm is a **quantum algorithm for integer factorization** that significantly outperforms classical methods. It consists of:
 
 - **Quantum Part**: Uses **modular exponentiation** and the **Quantum Fourier Transform (QFT)** to estimate the period \( r \) of a function related to the number being factored.
 - **Classical Part**: Uses the estimated period \( r \) to compute the factors of the given number.
